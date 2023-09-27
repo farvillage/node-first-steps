@@ -1,9 +1,10 @@
-import { sql } from "./db.js"
+import { sql } from './db.js'
 
 sql`
-    CREATE TABLE videos (
-        title TEXT,
-        description TEXT,
-        duration INTEGER
-    );
+CREATE TABLE videos (
+    id TEXT PRIMARY KEY,
+    title TEXT,
+    description TEXT,
+    duration INTEGER
+);
 `
