@@ -11,7 +11,7 @@ export class DatabaseMemory{
 
             return {
                 id,
-              ...data
+            ...data
             }
         .filter((video) => {
             if (search){
